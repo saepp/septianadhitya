@@ -2,7 +2,7 @@
 
 :root {
   --font-family: "Manrope", sans-serif;
-  --gradient-text: linear-gradient(90deg, #b429f9 0%, #26c5f3 100%);
+  --gradient-text: linear-gradient(45deg, #b429f9 0, #26c5f3);
   --color-bg: #040c18;
   --color-button: #af30f9;
 }
