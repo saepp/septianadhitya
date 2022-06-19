@@ -1,9 +1,17 @@
 import "./App.css";
+import { Card, Footer, Header, Modal, Projects, Skills } from "./containers";
+import { Navbar } from "./components";
 
 function App() {
   return (
-    <div className="">
-      <h1>Hello World</h1>
+    <div className="App">
+      <Navbar />
+      <Header />
+      <Projects />
+      <Card />
+      <Modal />
+      <Skills />
+      <Footer />
     </div>
   );
 }
