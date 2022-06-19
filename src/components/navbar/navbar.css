@@ -1,0 +1,37 @@
+.saep__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.saep__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saep__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.saep__navbar-links_logo p {
+  font-size: 24px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: #fff;
+}
+
+.saep__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+}
+
+.saep__navbar-links_container p {
+  font-size: 18px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: #fff;
+  margin: 0 1rem;
+}
