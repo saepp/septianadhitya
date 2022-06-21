@@ -92,14 +92,29 @@
 
   .saep__navbar-bottom_menu {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
 
-  .wrap__hamburger {
+  .saep__navbar-bottom_menu .wrap__button__hamburger {
     display: flex;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  .saep__navbar-bottom_menu .wrap__button__hamburger .wrap__hamburger {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .saep__navbar-bottom_menu .hamburger-icon {
+    display: flex;
+    width: 10px;
+    height: 10px;
   }
 
   .saep__navbar-bottom_menu .hamburger-icon-text {
