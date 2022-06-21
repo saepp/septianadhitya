@@ -1,13 +1,13 @@
 .saep__projects {
   display: flex;
   flex-direction: column;
-  padding: 4rem 6rem;
+  padding: 4rem 8.125rem;
 }
 
 .saep__projects-heading {
   display: flex;
   justify-content: flex-start;
-  margin: 0 34px 56px;
+  margin-bottom: 56px;
 }
 
 .saep__projects-heading h4 {
@@ -15,4 +15,34 @@
   font-weight: 800;
   font-size: 32px;
   color: #fff;
+}
+
+.saep__projects-project {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .saep__projects {
+    padding: 4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .saep__projects {
+    padding: 2rem 1rem;
+  }
+
+  .saep__projects-heading {
+    margin: 0 0 56px;
+  }
+
+  .saep__projects-heading h4 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .saep__projects-heading h4 {
+    font-size: 22px;
+  }
 }

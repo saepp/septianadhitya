@@ -1,7 +1,6 @@
 .saep__project {
   display: flex;
   flex-direction: column;
-  margin: 0 34px;
 }
 
 .saep__project-image {
@@ -57,4 +56,47 @@
 
 .saep__project-links_github {
   display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .saep__project {
+    display: flex;
+  }
+
+  .saep__project-image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .saep__project-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+  }
+
+  .saep__project-image img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .saep__project {
+    display: flex;
+    margin: 0;
+  }
+
+  .saep__project-image img {
+    width: 100%;
+  }
+
+  .saep__project-name p {
+    font-size: 16px;
+  }
+
+  .saep__project-links_visit .link-icon-text,
+  .saep__project-links_github .github-icon-text {
+    font-size: 12px;
+  }
 }

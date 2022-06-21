@@ -42,7 +42,7 @@ const Header = () => {
                 <span className="download-icon">
                   <HiDownload color="#a3b3bc" size={15} />
                 </span>
-                <span className="download-icon-text">Download</span>
+                <span className="download-icon-text">Download CV</span>
               </span>
             </a>
           </p>

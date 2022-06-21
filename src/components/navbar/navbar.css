@@ -40,6 +40,12 @@
   display: none;
 }
 
+@media screen and (max-width: 1024px) {
+  .saep__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .saep__navbar-links {
     display: none;
@@ -47,6 +53,7 @@
 
   .saep__navbar-bottom {
     display: flex;
+    z-index: 999;
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;

@@ -108,9 +108,16 @@
   align-items: center;
 }
 
+@media screen and (max-width: 1024px) {
+  .saep__header {
+    padding: 4rem 4rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .saep__header {
     flex-direction: column;
+    padding: 4rem 1rem;
   }
 
   .saep__header-content {
@@ -140,6 +147,7 @@
   .saep__header {
     justify-content: center;
     align-items: center;
+    padding: 2rem 1rem;
   }
 
   .saep__header-content .heading__text {
@@ -153,5 +161,11 @@
   .saep__header-content .description__text {
     font-size: 12px;
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .saep__header-content .description__text {
+    font-size: 10px;
   }
 }

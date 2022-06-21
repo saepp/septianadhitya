@@ -17,7 +17,7 @@ const Project = ({ project, name, link, github }) => {
             <a href={link}>
               <div className="wrap__visit">
                 <span className="link-icon">
-                  <BsLink45Deg size={20} color="#fff" />
+                  <BsLink45Deg size={17} color="#fff" />
                 </span>
                 <span className="link-icon-text">Visit Website</span>
               </div>
@@ -29,7 +29,7 @@ const Project = ({ project, name, link, github }) => {
             <a href={github}>
               <div className="wrap__github">
                 <span className="github-icon">
-                  <BsGithub color="#fff" />
+                  <BsGithub size={17} color="#fff" />
                 </span>
                 <span className="github-icon-text">Link Github</span>
               </div>
