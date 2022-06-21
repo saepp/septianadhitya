@@ -37,5 +37,25 @@
   font-family: var(--font-family);
   font-size: 18px;
   text-align: center;
-  color: #fff;
+  color: #a3b3bc;
+}
+
+@media screen and (max-width: 1024px) {
+  .saep__modal {
+    padding-bottom: 24px;
+  }
+
+  .saep__modal-text p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .saep__modal-heading {
+    font-size: 20px;
+  }
+
+  .saep__modal-text p {
+    font-size: 13px;
+  }
 }
