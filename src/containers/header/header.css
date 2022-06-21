@@ -20,18 +20,17 @@
   color: #fff;
 }
 
-.saep__header-content h1 {
+.saep__header-content .main__text {
   font-size: 46px;
   font-family: var(--font-family);
   font-weight: 800;
-  line-height: 63px;
 }
 
 .saep__header-content .description__text {
   font-family: var(--font-family);
   font-size: 16px;
   line-height: 22px;
-  color: #fff;
+  color: #a3b3bc;
   margin-top: 12px;
 }
 
@@ -43,13 +42,14 @@
   margin-top: 20px;
 }
 
-.saep__header-content__button button {
+.saep__header-content__button .button {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100px;
   height: 40px;
   background-color: var(--color-button);
+  font-family: var(--font-family);
   border: none;
   border-radius: 5px;
   color: white;
@@ -57,7 +57,20 @@
   cursor: pointer;
 }
 
-.saep__header-content__button .mail-icon {
+.wrap__button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mail-icon {
+  display: flex;
+  width: 17px;
+  height: 12px;
+}
+
+.saep__header-content__button .button .mail-icon {
   margin-right: 4px;
 }
 
@@ -65,9 +78,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #a3b3bc;
   font-family: var(--font-family);
   margin-left: 20px;
+}
+
+.wrap__download {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-icon {
+  display: flex;
+  width: 15px;
+  height: 15px;
 }
 
 .saep__header-content__button .download-icon {
@@ -91,6 +117,14 @@
     margin: 0;
   }
 
+  .saep__header-content .heading__text {
+    text-align: center;
+  }
+
+  .saep__header-content .main__text {
+    text-align: center;
+  }
+
   .saep__header-content .description__text {
     text-align: center;
   }
@@ -110,7 +144,7 @@
     font-size: 24px;
   }
 
-  .saep__header-content h1 {
+  .saep__header-content .main__text {
     font-size: 40px;
   }
 
