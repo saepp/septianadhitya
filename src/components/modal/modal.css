@@ -1,0 +1,41 @@
+.saep__modal {
+  display: flex;
+}
+
+.saep__modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.saep__modal-image {
+  width: 174px;
+  height: 174px;
+  border-radius: 100%;
+  background-color: #d9d9d9;
+}
+
+.saep__modal-heading {
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 8px;
+  color: #fff;
+}
+
+.saep__modal-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  width: 275px;
+}
+
+.saep__modal-text p {
+  font-family: var(--font-family);
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}

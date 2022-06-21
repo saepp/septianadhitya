@@ -1,5 +1,5 @@
 import "./App.css";
-import { Card, Footer, Header, Modal, Projects, Skills } from "./containers";
+import { Card, Footer, Header, Modals, Projects, Skills } from "./containers";
 import { Navbar } from "./components";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Projects />
       <Card />
-      <Modal />
+      <Modals />
       <Skills />
       <Footer />
     </div>
