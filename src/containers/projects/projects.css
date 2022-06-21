@@ -1,0 +1,18 @@
+.saep__projects {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 6rem;
+}
+
+.saep__projects-heading {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 34px 56px;
+}
+
+.saep__projects-heading h4 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+}

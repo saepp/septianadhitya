@@ -1,6 +1,8 @@
 .saep__header {
   display: flex;
   flex-direction: row;
+  padding: 4rem 8.125rem;
+  margin: 60px 0;
 }
 
 .saep__header-content {
