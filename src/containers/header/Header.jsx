@@ -1,12 +1,11 @@
 import React from "react";
-import { IoIosMail } from "react-icons/io";
 import { HiDownload } from "react-icons/hi";
 import personal from "../../assets/image.png";
 import "./header.css";
 
 const Header = () => {
   return (
-    <div className="saep__header section__padding" id="home">
+    <div className="saep__header" id="home">
       <div className="saep__header-content">
         <p className="heading__text">Hi, I’m Septian Adhitya</p>
         <p className="gradient__text main__text">React Developer</p>
@@ -17,7 +16,12 @@ const Header = () => {
           now I am looking forward to working with you!
         </p>
         <div className="saep__header-content__button">
-          <a className="button" href="mailto:dsrisk911@gmail.com">
+          <a
+            className="button"
+            href="mailto:dsrisk911@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span className="wrap__button">
               <span className="mail-icon">
                 <svg
@@ -37,7 +41,7 @@ const Header = () => {
             </span>
           </a>
           <p>
-            <a href="#home">
+            <a href="#home" target="_blank" rel="noreferrer">
               <span className="wrap__download">
                 <span className="download-icon">
                   <HiDownload color="#a3b3bc" size={15} />

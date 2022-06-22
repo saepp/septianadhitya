@@ -12,7 +12,7 @@ const Card = () => {
         <div className="saep__card-button">
           <div className="saep__card-button_download">
             <p>
-              <a href="#home">
+              <a href="#home" target="_blank" rel="noreferrer">
                 <span className="wrap__download">
                   <span className="download-icon">
                     <HiDownload size={15} color="#fff" />
@@ -24,7 +24,11 @@ const Card = () => {
           </div>
           <div className="saep__card-button_email">
             <p>
-              <a href="mailto:dsrisk911@gmail.com">
+              <a
+                href="mailto:dsrisk911@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <span className="wrap__email">
                   <span className="email-icon">
                     <svg

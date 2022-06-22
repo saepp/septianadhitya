@@ -6,7 +6,9 @@ const Project = ({ project, name, link, github }) => {
   return (
     <div className="saep__project">
       <div className="saep__project-image">
-        <img src={project} alt="project" />
+        <a href={link} target="_blank" rel="noreferrer">
+          <img src={project} alt="project" />
+        </a>
       </div>
       <div className="saep__project-name">
         <p>{name}</p>
@@ -14,7 +16,7 @@ const Project = ({ project, name, link, github }) => {
       <div className="saep__project-links">
         <div className="saep__project-links_visit">
           <p>
-            <a href={link}>
+            <a href={link} target="_blank" rel="noreferrer">
               <div className="wrap__visit">
                 <span className="link-icon">
                   <BsLink45Deg size={17} color="#fff" />
@@ -26,7 +28,7 @@ const Project = ({ project, name, link, github }) => {
         </div>
         <div className="saep__project-links_github">
           <p>
-            <a href={github}>
+            <a href={github} target="_blank" rel="noreferrer">
               <div className="wrap__github">
                 <span className="github-icon">
                   <BsGithub size={17} color="#fff" />

@@ -1,0 +1,30 @@
+.saep__skill {
+  display: flex;
+  margin: 0 24px;
+}
+
+.saep__skill-image {
+  width: 130px;
+  height: 130px;
+}
+
+@media screen and (max-width: 1024px) {
+  .saep__skill {
+    margin: 0 12px;
+  }
+
+  .saep__skill-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .saep__skill-image img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .saep__skill {
+    margin: 12px 0;
+  }
+}

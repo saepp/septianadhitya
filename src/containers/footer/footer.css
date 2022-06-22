@@ -1,0 +1,76 @@
+.saep__footer {
+  display: flex;
+}
+
+.saep__footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 400px;
+  background: rgba(11, 13, 18, 0.75);
+  backdrop-filter: blur(40px);
+  margin: 0 auto 0 8.125rem;
+}
+
+.saep__footer-heading {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+}
+
+.saep__footer-sub_heading {
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: #a3b3bc;
+}
+
+.saep__footer-sub_heading a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.saep__footer-icon {
+  display: flex;
+  margin-top: 20px;
+}
+
+.saep__footer-icon_whatsapp,
+.saep__footer-icon_github {
+  margin-left: 44px;
+}
+
+@media screen and (max-width: 1024px) {
+  .saep__footer-container {
+    margin: 0 auto 0 4rem;
+  }
+
+  .saep__footer-heading {
+    font-size: 24px;
+  }
+
+  .saep__footer-sub_heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .saep__footer {
+    padding: 0 0 60px 0;
+  }
+
+  .saep__footer-container {
+    margin: 0 auto 0 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .saep__footer-heading {
+    font-size: 16px;
+  }
+
+  .saep__footer-sub_heading {
+    font-size: 12px;
+  }
+}

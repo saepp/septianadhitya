@@ -23,7 +23,6 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      {/* Navbar Button Small Screen */}
       <div className="saep__navbar-bottom">
         <div className="saep__navbar-bottom_logo">
           <div className="circle-logo" />

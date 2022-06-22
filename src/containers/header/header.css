@@ -118,6 +118,7 @@
   .saep__header {
     flex-direction: column;
     padding: 4rem 1rem;
+    margin: 0;
   }
 
   .saep__header-content {
