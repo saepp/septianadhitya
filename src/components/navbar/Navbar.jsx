@@ -6,7 +6,9 @@ const Navbar = () => {
     <div className="saep__navbar">
       <div className="saep__navbar-links">
         <div className="saep__navbar-links_logo">
-          <p>Septianadhitya</p>
+          <a href="#home">
+            <p>Septianadhitya</p>
+          </a>
         </div>
         <div className="saep__navbar-links_container">
           <p>
