@@ -26,3 +26,23 @@ a {
   position: absolute;
   z-index: -999;
 }
+
+.ellips2 {
+  position: absolute;
+  right: 0;
+  z-index: -999;
+  bottom: 600px;
+}
+
+.ellips3 {
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  z-index: -999;
+}
+
+.ellips1 img,
+.ellips2 img,
+.ellips3 img {
+  width: 100%;
+}
