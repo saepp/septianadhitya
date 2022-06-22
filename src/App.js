@@ -5,6 +5,8 @@ import ellips1 from "./assets/ellips7.png";
 import ellips2 from "./assets/ellips4.png";
 import ellips3 from "./assets/ellips6.png";
 
+import ellips4 from "./assets/ellips5.png";
+
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,9 @@ function App() {
         <img src={ellips2} alt="ellips2" />
       </div>
       <Projects />
+      <div className="ellips4">
+        <img src={ellips4} alt="" />
+      </div>
       <Card />
       <Modals />
       <div className="ellips3">
@@ -24,6 +29,9 @@ function App() {
       </div>
       <Skills />
       <Footer />
+      <div className="circle1" />
+      <div className="circle2" />
+      <div className="circle3" />
     </div>
   );
 }

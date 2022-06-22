@@ -17,6 +17,7 @@
   padding: 0 8.125rem;
   background: rgba(11, 13, 18, 0.75);
   backdrop-filter: blur(40px);
+  z-index: 999;
 }
 
 .saep__navbar-links_logo {

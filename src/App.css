@@ -41,8 +41,92 @@ a {
   z-index: -999;
 }
 
+.ellips4 {
+  position: absolute;
+  left: 8.125rem;
+  bottom: 1775.5px;
+}
+
 .ellips1 img,
 .ellips2 img,
 .ellips3 img {
   width: 100%;
+}
+
+.circle1,
+.circle2,
+.circle3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  z-index: -999;
+}
+
+.circle1 {
+  position: absolute;
+  right: 500px;
+  bottom: 150px;
+  background-color: #af30f9;
+}
+
+.circle2 {
+  position: absolute;
+  right: 250px;
+  bottom: 30px;
+  background-color: #865cf8;
+}
+
+.circle3 {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  background-color: #28c3f4;
+}
+
+@media screen and (max-width: 1024px) {
+  .ellips4 {
+    left: 65px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ellips4 {
+    left: 17px;
+    bottom: 2345.5px;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3 {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ellips4 {
+    bottom: 2248.5px;
+  }
+
+  .circle1,
+  .circle2,
+  .circle3 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle1 {
+    bottom: 150px;
+    right: 250px;
+  }
+
+  .circle2 {
+    bottom: 50px;
+    right: 145px;
+  }
+
+  .circle3 {
+    bottom: 150px;
+    right: 0;
+  }
 }
