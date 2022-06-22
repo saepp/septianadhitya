@@ -6,10 +6,17 @@
 }
 
 .saep__navbar-links {
-  flex: 1;
   display: flex;
+  position: fixed;
   justify-content: space-between;
+  height: 100px;
+  width: 100%;
+  top: 0;
+  left: 0;
   align-items: center;
+  padding: 0 8.125rem;
+  background: rgba(11, 13, 18, 0.75);
+  backdrop-filter: blur(40px);
 }
 
 .saep__navbar-links_logo {

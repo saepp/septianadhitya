@@ -1,7 +1,7 @@
 .saep__projects {
   display: flex;
   flex-direction: column;
-  padding: 4rem 8.125rem;
+  padding: 8rem 8.125rem;
 }
 
 .saep__projects-heading {
