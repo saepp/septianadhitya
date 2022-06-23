@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import { IoClose } from "react-icons/io5";
 import "./navbar.css";
 
 const Navbar = () => {
+  const [open, setIsOpen] = useState(false);
   return (
     <div className="saep__navbar">
       <div className="saep__navbar-links">
@@ -25,7 +27,8 @@ const Navbar = () => {
           </p>
         </div>
       </div>
-      <div className="saep__navbar-bottom">
+      {/* Navbar Mobile */}
+      <div className={`saep__navbar-bottom ${open ? "full-pages" : "normal"}`}>
         <div className="saep__navbar-bottom_logo">
           <div className="circle-logo" />
         </div>
@@ -53,7 +56,11 @@ const Navbar = () => {
           </p>
         </div>
         <div className="saep__navbar-bottom_menu">
-          <button type="button" className="wrap__button__hamburger">
+          <button
+            type="button"
+            className="wrap__button__hamburger"
+            onClick={() => setIsOpen(true)}
+          >
             <div className="wrap__hamburger">
               <span className="hamburger-icon">
                 <svg
@@ -73,6 +80,44 @@ const Navbar = () => {
             </div>
           </button>
         </div>
+        {open && (
+          <div className="saep__navbar-bottom_menu-container">
+            <div className="saep__navbar-bottom_menu-profile">
+              <a href="#home">
+                <div className="circle" />
+              </a>
+            </div>
+            <div className="saep__navbar-bottom_menu-links">
+              <p>
+                <a href="#home" onClick={() => setIsOpen(false)}>
+                  Home
+                </a>
+              </p>
+              <p>
+                <a href="#projects" onClick={() => setIsOpen(false)}>
+                  Projects
+                </a>
+              </p>
+              <p>
+                <a href="#whyHireMe" onClick={() => setIsOpen(false)}>
+                  Why Hire Me?
+                </a>
+              </p>
+              <p>
+                <a href="#skills" onClick={() => setIsOpen(false)}>
+                  Skills
+                </a>
+              </p>
+            </div>
+            <div className="saep__navbar-bottom_menu-close">
+              <button type="button" onClick={() => setIsOpen(false)}>
+                <div className="circle__close">
+                  <IoClose color="#fff" size={30} />
+                </div>
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -4,7 +4,6 @@ import { Navbar } from "./components";
 import ellips1 from "./assets/ellips7.png";
 import ellips2 from "./assets/ellips4.png";
 import ellips3 from "./assets/ellips6.png";
-
 import ellips4 from "./assets/ellips5.png";
 
 function App() {

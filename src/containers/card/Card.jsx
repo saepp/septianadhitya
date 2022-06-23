@@ -1,6 +1,5 @@
 import React from "react";
 import { HiDownload } from "react-icons/hi";
-import ellips4 from "../../assets/ellips5.png";
 import "./card.css";
 
 const Card = () => {
