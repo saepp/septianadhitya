@@ -1,6 +1,6 @@
 import React from "react";
 import { HiDownload } from "react-icons/hi";
-import personal from "../../assets/image.png";
+import personal from "../../assets/card.svg";
 import "./header.css";
 
 const Header = () => {
