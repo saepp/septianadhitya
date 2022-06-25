@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IoClose } from "react-icons/io5";
+import profile from "../../assets/profile.svg";
 import "./navbar.css";
 
 const Navbar = () => {
@@ -9,6 +10,7 @@ const Navbar = () => {
       <div className="saep__navbar-links">
         <div className="saep__navbar-links_logo">
           <a href="#home">
+            <img src={profile} alt="profile" />
             <p>Septianadhitya</p>
           </a>
         </div>
@@ -30,7 +32,9 @@ const Navbar = () => {
       {/* Navbar Mobile */}
       <div className={`saep__navbar-bottom ${open ? "full-pages" : "normal"}`}>
         <div className="saep__navbar-bottom_logo">
-          <div className="circle-logo" />
+          <a href="#home" className="circle-logo">
+            <img src={profile} alt="profile" />
+          </a>
         </div>
         <div className="saep__navbar-bottom_email">
           <p>
@@ -84,7 +88,8 @@ const Navbar = () => {
           <div className="saep__navbar-bottom_menu-container">
             <div className="saep__navbar-bottom_menu-profile">
               <a href="#home">
-                <div className="circle" />
+                <img src={profile} alt="profile" />
+                <p>Septianadhitya</p>
               </a>
             </div>
             <div className="saep__navbar-bottom_menu-links">
